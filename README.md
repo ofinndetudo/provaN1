@@ -1,8 +1,8 @@
-# 🚀 Portal Restrito - Prova N1
+# Portal Restrito - Prova N1
 
 Este projeto é uma aplicação web completa (Full Stack) desenvolvida para a disciplina de **Linguagem de Programação para Internet**. A aplicação simula um sistema de autenticação onde, após a validação via API, a árvore DOM é manipulada dinamicamente para exibir um Dashboard personalizado.
 
-## 📋 Sobre o Projeto
+## Sobre o Projeto
 
 O objetivo principal é demonstrar o controle de acesso e a manipulação dinâmica do HTML sem o recarregamento da página.
 * **Front-end:** HTML5, CSS3 e JavaScript Assíncrono (Fetch API).
@@ -10,7 +10,7 @@ O objetivo principal é demonstrar o controle de acesso e a manipulação dinâm
 
 ---
 
-## 🛠️ Como Executar
+## Como Executar
 
 Siga os passos abaixo para rodar o projeto em sua máquina local:
 
@@ -31,6 +31,6 @@ Siga os passos abaixo para rodar o projeto em sua máquina local:
         senha: 123 | 456 | estudante
 
 
-👤 Identificação
+Identificação
 Aluna: Felicia da Trindade Justino
 RA: 5166921
