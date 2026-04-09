@@ -10,6 +10,7 @@ para o código funcionar precisa instalar ceras requisições:
 
 
 npm init -y
+
 npm install express cors
 
 
@@ -17,7 +18,6 @@ npm install express cors
 
 
 node server.js
-
 
 
 após isso, você pode colocar 2 usuários para testar:
