@@ -6,16 +6,27 @@ Esse código é uma tela de cadastro simples que quando fazemos o login, a tela 
 
 para o código funcionar precisa instalar ceras requisições:
 
-//copie esse código para dentro do terminal <br>
+//copie esse código para dentro do terminal
+
+
 npm init -y
 npm install express cors
 
+
 //logo depois rode o servidor, tem que aparecer a mensagem "Servidor rodando na porta 3000"
+
+
 node server.js
 
+
+
 após isso, você pode colocar 2 usuários para testar:
+
+
 usuário: admin | senha: 123
 OU
 usuário: aluno | senha: 456
+
+
 
 espero que goste do código :)
