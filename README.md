@@ -6,7 +6,7 @@ Esse código é uma tela de cadastro simples que quando fazemos o login, a tela 
 
 para o código funcionar precisa instalar ceras requisições:
 
-//copie esse código para dentro do terminal
+//copie esse código para dentro do terminal <br>
 npm init -y
 npm install express cors
 
