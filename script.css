@@ -1,0 +1,134 @@
+/* Importando uma fonte mais moderna */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f0f2f5; /* Um cinza levemente azulado */
+    font-family: 'Inter', sans-serif;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    padding: 40px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-weight: 600;
+    color: #1a1a1a;
+    letter-spacing: -1px;
+}
+
+main {
+    width: 100%;
+    max-width: 450px; /* Reduzi um pouco para ficar mais elegante no centro */
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* O contêiner principal com uma sombra suave */
+#container-principal {
+    background-color: #ffffff;
+    border: none; /* Removi a borda sólida e usei sombra */
+    border-radius: 12px;
+    padding: 40px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease;
+}
+
+/* Estilização dos campos de input */
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+    font-size: 14px;
+    color: #666;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 12px 15px;
+    border: 2px solid #e1e1e1;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+    outline: none;
+}
+
+input:focus {
+    border-color: #4CAF50; /* A cor do professor, mas aplicada só no foco */
+}
+
+/* Botão com gradiente e profundidade */
+button {
+    width: 100%;
+    padding: 14px;
+    background: linear-gradient(135deg, #4CAF50 0%, #45a049 100%);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: 0 4px 15px rgba(76, 175, 80, 0.3);
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(76, 175, 80, 0.4);
+}
+
+button:active {
+    transform: translateY(0);
+}
+
+/* Mensagens de erro e sucesso */
+#result {
+    margin-top: 20px;
+    text-align: center;
+    min-height: 24px;
+}
+
+.error {
+    background-color: #ffebee;
+    color: #c62828;
+    padding: 10px;
+    border-radius: 6px;
+    display: inline-block;
+    width: 100%;
+}
+
+/* Estilo do Dashboard que aparece após o login */
+.success-panel {
+    animation: fadeIn 0.5s ease forwards;
+}
+
+.success-panel h2 {
+    color: #2e7d32;
+    margin-bottom: 10px;
+}
+
+.success-panel strong {
+    color: #1a1a1a;
+    font-size: 1.2em;
+}
+
+/* Animação suave para a entrada do conteúdo */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
